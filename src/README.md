@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="[https://{your-demo-link.your-domain}](https://davidoff-a.github.io/not-found/src/)">
       Demo
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](./src/assets/screenshot.png);
+![screenshot](./../src/assets/screenshot.png);
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

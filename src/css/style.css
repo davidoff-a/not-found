@@ -1,0 +1,192 @@
+/* inconsolata-regular - latin */
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inconsolata-v21-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/inconsolata-v21-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inconsolata-v21-latin-regular.woff2") format("woff2"), url("../assets/fonts/inconsolata-v21-latin-regular.woff") format("woff"), url("../assets/fonts/inconsolata-v21-latin-regular.ttf") format("truetype"), url("../assets/fonts/inconsolata-v21-latin-regular.svg#Inconsolata") format("svg");
+  /* Legacy iOS */
+}
+
+/* inconsolata-700 - latin */
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/inconsolata-v21-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/inconsolata-v21-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inconsolata-v21-latin-700.woff2") format("woff2"), url("../assets/fonts/inconsolata-v21-latin-700.woff") format("woff"), url("../assets/fonts/inconsolata-v21-latin-700.ttf") format("truetype"), url("../assets/fonts/inconsolata-v21-latin-700.svg#Inconsolata") format("svg");
+  /* Legacy iOS */
+}
+
+/* space-mono-regular - latin */
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/space-mono-v10-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/space-mono-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/space-mono-v10-latin-regular.woff2") format("woff2"), url("../assets/fonts/space-mono-v10-latin-regular.woff") format("woff"), url("../assets/fonts/space-mono-v10-latin-regular.ttf") format("truetype"), url("../assets/fonts/space-mono-v10-latin-regular.svg#SpaceMono") format("svg");
+  /* Legacy iOS */
+}
+
+/* space-mono-700 - latin */
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/space-mono-v10-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../assets/fonts/space-mono-v10-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/space-mono-v10-latin-700.woff2") format("woff2"), url("../assets/fonts/space-mono-v10-latin-700.woff") format("woff"), url("../assets/fonts/space-mono-v10-latin-700.ttf") format("truetype"), url("../assets/fonts/space-mono-v10-latin-700.svg#SpaceMono") format("svg");
+  /* Legacy iOS */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono";
+  color: #333333;
+}
+
+.container {
+  max-width: 1440px;
+  max-height: 1080px;
+  padding: 40px 77px;
+}
+
+.header {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.main {
+  margin-top: 200px;
+  width: 100%;
+}
+
+.not-found {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.not-found__img {
+  width: 540px;
+  height: 450px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 43%;
+          flex: 0 1 43%;
+  background: url("../assets/Scarecrow.png") center center/contain no-repeat;
+}
+
+.not-found__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 47%;
+          flex: 0 1 47%;
+}
+
+.not-found__title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.not-found__descr {
+  margin-top: 36px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.not-found__link {
+  margin-top: 64px;
+  padding: 24px 0;
+  display: block;
+  text-align: center;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  text-decoration: none;
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    height: auto;
+    padding: 20px 24px;
+  }
+  .main {
+    margin-top: 60px;
+    height: 939px;
+  }
+  .not-found {
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .not-found__img {
+    width: 287px;
+    height: 238px;
+    margin: 0 20px;
+    background: url("../assets/Scarecrow.png") center center/contain no-repeat;
+  }
+  .not-found__text {
+    width: 100%;
+  }
+  .not-found__title {
+    font-size: 48px;
+    line-height: 71px;
+  }
+  .not-found__descr {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
